@@ -3,6 +3,7 @@ alias tlf="tail -f"
 alias ln='ln -v'
 alias mkdir='mkdir -p'
 alias ...='../..'
+alias ls='ls --color'
 alias l='ls -lrhta'
 alias ll='ls -al'
 alias lh='ls -Alh'
