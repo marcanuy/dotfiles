@@ -1,0 +1,10 @@
+table Icon
+  Caption: Logout
+  Command: kill -TERM $(xprop -root _BLACKBOX_PID | awk '{print $3}')
+  Icon: /usr/share/icons/Tango/32x32/actions/gnome-session-logout.png
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 657
+end
+

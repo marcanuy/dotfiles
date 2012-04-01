@@ -1,0 +1,52 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=gkrellm) (class=Gkrellm)
+  [Head]	{1}
+  [Dimensions]	{75 407}
+  [Position]	(UPPERLEFT)	{1261 189}
+  [Shaded]	{no}
+  [Deco]	{0x5ff}
+  [Sticky]	{no}
+  [Minimized]	{no}
+  [Maximized]	{no}
+  [Fullscreen]	{no}
+  [Layer]	{2}
+  [Close]	{yes}
+  [Alpha]	{255}
+[end]
+[transient] (name=mirage) (class=Mirage)
+  [IconHidden]	{yes}
+[end]
+[app] (name=mirage) (class=Mirage)
+  [Dimensions]	{1015 730}
+  [Position]	(UPPERLEFT)	{87 0}
+[end]
+[app] (name=Navigator) (class=Firefox) (role=browser)
+[end]
+[app] (name=urxvt) (class=URxvt)
+  [Alpha]	{222 221}
+[end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-3070--1609329411-1332992616)
+  [Close]	{yes}
+  [Alpha]	{233}
+[end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-3070--1237386721-1332992717)
+  [Close]	{yes}
+  [Alpha]	{224}
+[end]
+[app] (name=desk) (class=URxvt)
+  [Dimensions]	{884 722}
+  [Position]	(UPPERLEFT)	{169 15}
+  [Shaded]	{no}
+  [Deco]	{NONE}
+  [Sticky]	{yes}
+  [Minimized]	{no}
+  [Maximized]	{no}
+  [Layer]	{12}
+  [Close]	{no}
+  [Alpha]	{255}
+  [Tab] 	{yes}
+  [Hidden]	{yes}
+[end]

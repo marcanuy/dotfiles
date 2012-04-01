@@ -1,0 +1,38 @@
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+# Change your keymap:
+# xmodmap "$HOME/.Xmodmap"
+
+# Applications you want to run with fluxbox.
+# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+#
+ urxvtd -q -o -f &
+# merge xresources changes
+ xrdb -merge $HOME/.Xresources
+# earth background
+~/.scripts/earthwpchanger.sh &
+fbsetbg -f ~/.fluxbox/backgrounds/world_sunlight_Wallpaper.jpg &
+ #/usr/bin/nitrogen --restore &
+ unclutter -idle 2 &
+# wmsmixer -w &
+ nohup idesk > /dev/null &
+ nm-applet &
+ /usr/bin/xcompmgr -f -c -n -C -F &
+# gnome-terminal -t Bash -x /bin/bash --login &
+# rxvt-unicode -ls &
+ urxvt -name desk &
+ emacs --daemon &
+ xscreensaver &
+ conky &
+ wmbattery &
+# gkrellm &
+
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+# start Fluxbox and keep a log
+ exec fluxbox -log ~/.fluxbox/log

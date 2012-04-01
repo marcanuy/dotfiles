@@ -1,0 +1,10 @@
+table Icon
+  Caption: pavucontrol
+  Command: /usr/bin/pavucontrol
+  Icon: /usr/share/idesk/folder_home.xpm
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 97
+end
+

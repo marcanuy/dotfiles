@@ -1,0 +1,10 @@
+table Icon
+  Caption: Netbeans PHP
+  Command: netbeans
+  Icon: /usr/share/icons/oxygen/48x48/mimetypes/application-x-php.png
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 277
+end
+

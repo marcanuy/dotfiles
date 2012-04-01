@@ -1,0 +1,10 @@
+table Icon
+  Caption: Password Gorilla
+  Command: /usr/bin/password-gorilla
+  Icon: /usr/share/icons/hicolor/48x48/password-gorilla.png
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 467
+end
+

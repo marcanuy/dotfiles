@@ -1,0 +1,10 @@
+table Icon
+  Caption: GIMP
+  Command: /usr/bin/gimp
+  Icon: /usr/share/pixmaps/gimp.xpm
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 557
+end
+

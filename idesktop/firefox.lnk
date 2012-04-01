@@ -1,0 +1,10 @@
+table Icon
+  Caption: Firefox
+  Command: /usr/bin/firefox
+  Icon: /usr/share/pixmaps/firefox.xpm
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 17
+end
+

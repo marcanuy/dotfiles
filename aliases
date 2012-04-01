@@ -12,6 +12,9 @@ alias -g G='| grep'
 alias -g M='| less'
 alias -g L='| wc -l'
 alias -g ONE="| awk '{ print \$1}'"
+alias nautilus='nautilus --no-desktop'
+alias urxvt='urxvtc'
+alias emacs='emacsclient -t'
 
 # gnome
 alias logout-gnome="gnome-session-quit --logout"

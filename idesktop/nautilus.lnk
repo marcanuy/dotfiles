@@ -1,0 +1,10 @@
+table Icon
+  Caption: Nautilus
+  Command: /usr/bin/nautilus --no-desktop
+  Icon: /usr/share/pixmaps/nautilus.xpm
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 187
+end
+

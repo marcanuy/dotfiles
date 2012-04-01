@@ -1,0 +1,10 @@
+table Icon
+  Caption: urxvtc
+  Command: /usr/bin/urxvtc
+  Icon: /usr/share/pixmaps/urxvt_48x48.xpm
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 367
+end
+
