@@ -55,7 +55,7 @@ session.screen0.maxIgnoreIncrement:	true
 session.screen0.tooltipDelay:	500
 session.screen0.colPlacementDirection:	TopToBottom
 session.screen0.maxDisableMove:	false
-session.screen0.windowMenu:	/home/marcuy/.fluxbox/windowmenu
+session.screen0.windowMenu:	~/.fluxbox/windowmenu
 session.screen0.focusModel:	ClickFocus
 session.ignoreBorder:	false
 session.menuFile:	~/.fluxbox/menu
@@ -66,10 +66,10 @@ session.colorsPerChannel:	4
 session.tabPadding:	0
 session.cacheMax:	200
 session.doubleClickInterval:	250
-session.styleOverlay:	/home/marcuy/.fluxbox/overlay
+session.styleOverlay:	~/.fluxbox/overlay
 session.tabsAttachArea:	Window
 session.keyFile:	~/.fluxbox/keys
 session.forcePseudoTransparency:	false
-session.appsFile:	/home/marcuy/.fluxbox/apps
-session.slitlistFile:	/home/marcuy/.fluxbox/slitlist
+session.appsFile:	~/.fluxbox/apps
+session.slitlistFile:	~/.fluxbox/slitlist
 session.autoRaiseDelay:	250

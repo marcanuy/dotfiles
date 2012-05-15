@@ -1,0 +1,12 @@
+fluxbox/backgrounds/*
+!fluxbox/backgrounds/.gitignore
+fluxbox/pixmaps/*
+!fluxbox/pixmaps/.gitignore
+fluxbox/styles/*
+!fluxbox/styles/.gitignore
+fluxbox/fbrun_history
+fluxbox/menudefs.hook
+fluxbox/menu
+fluxbox/log
+fluxbox/lastwallpaper
+vim/.netrwhist

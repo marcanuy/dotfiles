@@ -72,7 +72,7 @@
 
 ;; * This enables some tools useful for coding, such as summary mode
 ;;   imenu support, and the semantic navigator
-(semantic-load-enable-code-helpers)
+;; (semantic-load-enable-code-helpers)
 
 
 (global-set-key [M-left] 'windmove-left)          ; move to left windnow

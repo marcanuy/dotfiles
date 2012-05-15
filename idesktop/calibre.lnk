@@ -1,0 +1,10 @@
+table Icon
+  Caption: Calibre
+  Command: /usr/bin/calibre
+  Icon: /usr/share/pixmaps/calibre.png
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 497
+end
+

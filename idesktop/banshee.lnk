@@ -1,0 +1,10 @@
+table Icon
+  Caption: Banshee
+  Command: /usr/bin/banshee
+  Icon: /usr/share/pixmaps/banshee.xpm
+  Width: 48
+  Height: 48
+  X: 45
+  Y: 577
+end
+
