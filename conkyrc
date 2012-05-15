@@ -74,7 +74,7 @@ ${voffset 2}${font OpenLogos:size=16}SYS${font} ${hr 2}
       Machine:  ${alignr}${machine}
 ${voffset 2}${font OpenLogos:size=16}CPU${font} ${hr 2}
       CPU: ${cpu cpu1} % ${alignr}${cpubar cpu1 8,60}
-      CPU Temp:${alignr} ${hwmon 0 temp 1}.0 oC
+#      CPU Temp:${alignr} ${hwmon 0 temp 1}.0 oC
       Processes: ${alignr}${processes}
 ${voffset 2}${font OpenLogos:size=16}MEM${font} ${hr 2}
       RAM: $memperc % ${alignr}${membar 8,60}
