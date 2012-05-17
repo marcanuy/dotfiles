@@ -63,7 +63,7 @@ net_avg_samples 2
 # Force UTF8? note that UTF8 support required XFT
 override_utf8_locale yes
 
-use_spacer no
+use_spacer none
 
 TEXT
 ${alignc 40}${font Arial Black:size=22}${time %H:%M:%S}${font}
