@@ -1,4 +1,4 @@
-thoughtbot dotfiles
+marcanuy dotfiles
 ===================
 
 Requirements
@@ -11,12 +11,9 @@ Set zsh as your login shell.
 Install
 -------
 
-Clone onto your laptop:
+Clone onto your PC:
 
-    git clone git://github.com/thoughtbot/dotfiles.git
-
-(Or, [fork and keep your fork
-updated](http://robots.thoughtbot.com/post/5133345960)).
+    git clone git://github.com/marcanuy/dotfiles.git
 
 Install:
 
@@ -70,6 +67,16 @@ Your `~/.vimrc.bundles.local` might look like this:
 
 What's in it?
 -------------
+
+[fluxbox](http://fluxbox.org/) customization:
+
+* Changing Ubuntu default Desktop Manager 
+    sudo apt-get install git git-core git-doc git-gui
+    sudo apt-get install rxvt-unicode fluxbox git idesk conky-all pavucontrol
+    sudo apt-get install eterm eterm-themes #para que pueda setear el background
+    Choose fluxbox window manager at login
+
+  ![Desktop Screenshot](https://github.com/marcanuy/dotfiles/img/screenshot.png)
 
 [vim](http://www.vim.org/) configuration:
 
@@ -130,12 +137,13 @@ in this project.
 ![thoughtbot](http://thoughtbot.com/images/tm/logo.png)
 
 Then, each time you want to update thoughtbot's changes.
-Dotfiles is maintained by [thoughtbot, inc](http://thoughtbot.com/community)
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
 
     git checkout upstream
     git pull
     git checkout master
     git rebase upstream
+
+Dotfiles is maintained by [thoughtbot, inc](http://thoughtbot.com/community)
+The names and logos for thoughtbot are trademarks of thoughtbot, inc.
 Dotfiles is © 2009-2013 thoughtbot, inc. It is free software and may be
 redistributed under the terms specified in the [LICENSE](LICENSE) file.
