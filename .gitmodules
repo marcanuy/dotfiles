@@ -1,3 +1,6 @@
 [submodule "elisp/helm"]
 	path = elisp/helm
 	url = https://github.com/emacs-helm/helm.git
+[submodule "elisp/joomla-mode"]
+	path = elisp/joomla-mode
+	url = https://github.com/marcanuy/joomla-mode
