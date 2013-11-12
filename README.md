@@ -76,7 +76,7 @@ What's in it?
     sudo apt-get install eterm eterm-themes #para que pueda setear el background
     Choose fluxbox window manager at login
 
-  ![Desktop Screenshot](https://github.com/marcanuy/dotfiles/img/screenshot.png)
+  ![Desktop Screenshot](https://raw.github.com/marcanuy/dotfiles/master/img/screenshot.png)
 
 [vim](http://www.vim.org/) configuration:
 
