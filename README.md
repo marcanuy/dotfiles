@@ -68,16 +68,17 @@ Your `~/.vimrc.bundles.local` might look like this:
 What's in it?
 -------------
 
-[fluxbox](http://fluxbox.org/) customization:
+### [fluxbox](http://fluxbox.org/) customization:
 
-* Changing Ubuntu default Desktop Manager
+Changing Ubuntu default Desktop Manager
 
     sudo apt-get install git git-core git-doc git-gui
     sudo apt-get install rxvt-unicode fluxbox git idesk conky-all pavucontrol
-    sudo apt-get install eterm eterm-themes #para que pueda setear el background
-    Choose fluxbox window manager at login
+    sudo apt-get install eterm eterm-themes
 
-  ![Desktop Screenshot](https://raw.github.com/marcanuy/dotfiles/master/img/screenshot.png)
+Choose fluxbox window manager, every time you log in, a script grabs a rectangular projection of the world map showing the current sunlight and cloud cover from [Opentopia](http://www.opentopia.com) and sets it as the wallpaper.
+
+![Desktop Screenshot](https://raw.github.com/marcanuy/dotfiles/master/img/screenshot.png)
 
 [vim](http://www.vim.org/) configuration:
 
