@@ -70,7 +70,8 @@ What's in it?
 
 [fluxbox](http://fluxbox.org/) customization:
 
-* Changing Ubuntu default Desktop Manager 
+* Changing Ubuntu default Desktop Manager
+
     sudo apt-get install git git-core git-doc git-gui
     sudo apt-get install rxvt-unicode fluxbox git idesk conky-all pavucontrol
     sudo apt-get install eterm eterm-themes #para que pueda setear el background
