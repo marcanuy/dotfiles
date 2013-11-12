@@ -5,16 +5,16 @@ fpath=(~/.zsh/completion $fpath)
 autoload -U compinit
 compinit
 
+for function in ~/.zsh/functions/*; do
+  source $function
+done
+
 # automatically enter directories without cd
 setopt auto_cd
 
-# use vim as an editor
-export EDITOR=vim
-
-# aliases
-if [ -e "$HOME/.aliases" ]; then
-  source "$HOME/.aliases"
-fi
+# use vim as the visual editor
+export VISUAL=vim
+export EDITOR=$VISUAL
 
 # emacs mode
 bindkey -e
@@ -48,3 +48,12 @@ setopt CORRECT CORRECT_ALL
 
 # Enable extended globbing
 setopt EXTENDED_GLOB
+
+# Allow [ or ] whereever you want
+unsetopt nomatch
+
+# aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
+
+# Local config
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local

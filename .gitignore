@@ -11,3 +11,5 @@ fluxbox/log
 fluxbox/lastwallpaper
 fluxbox/fluxbox-menu
 vim/.netrwhist
+!bin
+vim/bundle/
