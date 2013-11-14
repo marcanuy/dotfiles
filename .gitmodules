@@ -7,3 +7,9 @@
 [submodule "elisp/php-mode"]
 	path = elisp/php-mode
 	url = https://github.com/ejmr/php-mode
+[submodule "elisp/graphviz-dot-mode"]
+	path = elisp/graphviz-dot-mode
+	url = https://github.com/ppareit/graphviz-dot-mode
+[submodule "elisp/web-mode"]
+	path = elisp/web-mode
+	url = https://github.com/fxbois/web-mode
