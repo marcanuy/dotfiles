@@ -1,20 +1,37 @@
-;;; Commentary:
-;; Use this mode for editing files in the dot-language (www.graphviz.org and
-;; http://www.research.att.com/sw/tools/graphviz/).
 ;;
-;; To use graphviz-dot-mode, add
- (load-file "~/.emacs.d/graphviz-dot-mode/graphviz-dot-mode.el")
-;; to your .emacs or ~/.xemacs/init.el
 ;;
-;; The graphviz-dot-mode will do font locking, indentation, preview of graphs
-;; and eases compilation/error location. There is support for both GNU Emacs
-;; and XEmacs.
-;;
-;; Font locking is automatic, indentation uses the same commands as
-;; other modes, tab, M-j and C-M-q. Insertion of comments uses the
-;; same commands as other modes, M-; . You can compile a file using
-;; M-x compile or C-c c, after that M-x next-error will also work.
-;; There is support for viewing an generated image with C-c p.
+;; graphviz-dot-mode
+(load-file "~/.elisp/graphviz-dot-mode/graphviz-dot-mode.el")
+;; php-mode
+(load-file "~/.elisp/php-mode/php-mode.el")
+;; helm-mode
+(add-to-list 'load-path "~/.elisp/helm/")
+(require 'helm-config)
+;; joomla-mode
+(load-file "~/.elisp/joomla-mode/joomla-mode.el")
+;; web-mode
+(load-file "~/.elisp/web-mode/web-mode.el")
+
+
+
+;; Flymake error reporting for PHP
+;; error_reporting option in php.ini needs to include E_PARSE
+;; in order for php to report parsing error details.
+;; e.g. php.ini:
+;; error_reporting = E_ERROR|E_COMPILE_ERROR|E_CORE_ERROR|E_PARSE
+(require 'flymake)
+(defun flymake-php-init ()
+  "Use php to check the syntax of the current file."
+  (let* ((temp (flymake-init-create-temp-buffer-copy 'flymake-create-temp-inplace))
+	  (local (file-relative-name temp (file-name-directory buffer-file-name))))
+    (list "php" (list "-f" local "-l"))))
+(add-to-list 'flymake-err-line-patterns 
+  '("\\(Parse\\|Fatal\\) error: +\\(.*?\\) in \\(.*?\\) on line \\([0-9]+\\)$" 3 4 nil 2))
+(add-to-list 'flymake-allowed-file-name-masks '("\\.php$" flymake-php-init))
+
+(add-hook 'php-mode-hook (lambda () (flymake-mode 1)))
+(define-key php-mode-map '[M-S-up] 'flymake-goto-prev-error)
+(define-key php-mode-map '[M-S-down] 'flymake-goto-next-error)
 
 ;; disable splash screen
 
