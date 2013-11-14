@@ -13,3 +13,15 @@
 [submodule "elisp/web-mode"]
 	path = elisp/web-mode
 	url = https://github.com/fxbois/web-mode
+[submodule "elisp/twittering-mode"]
+	path = elisp/twittering-mode
+	url = https://github.com/hayamiz/twittering-mode
+[submodule "elisp/dired-plus"]
+	path = elisp/dired-plus
+	url = https://github.com/emacsmirror/dired-plus
+[submodule "elisp/ace-jump-mode"]
+	path = elisp/ace-jump-mode
+	url = https://github.com/winterTTr/ace-jump-mode
+[submodule "elisp/bookmark-plus"]
+	path = elisp/bookmark-plus
+	url = https://github.com/emacsmirror/bookmark-plus
