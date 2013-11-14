@@ -7,12 +7,24 @@
 ;; helm-mode
 (add-to-list 'load-path "~/.elisp/helm/")
 (require 'helm-config)
+;; bookmark-plus
+(add-to-list 'load-path "~/.elisp/bookmark-plus/")
+(require 'bookmark+)
 ;; joomla-mode
 (load-file "~/.elisp/joomla-mode/joomla-mode.el")
 ;; web-mode
 (load-file "~/.elisp/web-mode/web-mode.el")
+;; twittering-mode
+;; Execute `M-x twit` to run twittering-mode.
+(add-to-list 'load-path "~/.elisp/twittering-mode/")
+(require 'twittering-mode)
+;; dired-plus
+(load-file "~/.elisp/dired-plus/dired+.el")
+;; ace-jump-mode
+(load-file "~/.elisp/ace-jump-mode/ace-jump-mode.el")
 
-
+;; load ibuffer instead of buffermenu
+(global-set-key (kbd "C-x C-b") 'ibuffer)
 
 ;; Flymake error reporting for PHP
 ;; error_reporting option in php.ini needs to include E_PARSE
