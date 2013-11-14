@@ -1,5 +1,6 @@
 fluxbox/backgrounds/*
 !fluxbox/backgrounds/.gitignore
+!fluxbox/backgrounds/world_sunlight_Wallpaper.jpg
 fluxbox/pixmaps/*
 !fluxbox/pixmaps/.gitignore
 fluxbox/styles/*
