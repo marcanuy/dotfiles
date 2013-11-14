@@ -15,6 +15,11 @@ Clone onto your PC:
 
     git clone git://github.com/marcanuy/dotfiles.git
 
+Update external repositories:
+
+    git submodule init
+    git submodule update
+
 Install:
 
     cd dotfiles
