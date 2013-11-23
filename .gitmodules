@@ -25,3 +25,6 @@
 [submodule "elisp/bookmark-plus"]
 	path = elisp/bookmark-plus
 	url = https://github.com/emacsmirror/bookmark-plus
+[submodule "elisp/magit"]
+	path = elisp/magit
+	url = git://github.com/magit/magit.git
